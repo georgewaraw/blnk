@@ -1,0 +1,13 @@
+{
+  "name": "@waraw/blnk",
+  "version": "0.1.0",
+  "description": "three.js demo.",
+  "scripts": {},
+  "author": "George Waraw <georgewaraw@gmail.com>",
+  "license": "MIT",
+  "repository": {},
+  "devDependencies": {
+    "popmotion": "^9.0.0",
+    "three": "^0.123.0"
+  }
+}
