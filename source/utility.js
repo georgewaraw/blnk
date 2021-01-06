@@ -46,7 +46,7 @@ Utility.font = (() => {
 	const cache = {},
 		loader = new FontLoader();
 	
-	return (name) => cache[name] = cache[name] || new Promise( (font) => loader.load(`/build/assets/${name}.json`, font) );
+	return (name) => cache[name] = cache[name] || new Promise( (font) => loader.load(`build/assets/${name}.json`, font) );
 })();
 
 Utility.audio = (() => {
@@ -54,7 +54,7 @@ Utility.audio = (() => {
 	const cache = {},
 		loader = new AudioLoader();
 	
-	return (name) => cache[name] = cache[name] || new Promise( (buffer) => loader.load(`/build/assets/${name}.mp3`, buffer) );
+	return (name) => cache[name] = cache[name] || new Promise( (buffer) => loader.load(`build/assets/${name}.mp3`, buffer) );
 })();
 
 Utility.animate = ( from, to, duration, onUpdate, onComplete=()=>{}, type="spring" ) => animate({
