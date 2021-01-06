@@ -19,7 +19,7 @@ player.isFacing = (() => {
 
 player.lives = (() => {
 	
-	let value = 3;
+	let value = 5;
 	
 	const callback = () => value;
 	callback.decrement = () => value-=1;
@@ -115,7 +115,7 @@ player.initialize = (enemies) => (
 					() => (
 						
 						acting = false,
-						!Utility.random(20) && player.toggleBattling()
+						!Utility.random(15) && player.toggleBattling()
 					)
 				)
 			)
@@ -132,7 +132,7 @@ player.initialize = (enemies) => (
 					() => (
 						
 						acting = false,
-						!Utility.random(20) && player.toggleBattling()
+						!Utility.random(15) && player.toggleBattling()
 					)
 				)
 			)

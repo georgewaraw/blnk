@@ -55,7 +55,7 @@ enemies.initialize = ( video, sound, player ) => (
 				e.attack = () => Utility.animate(
 					e.position.x,
 					player.position.x,
-					Utility.random( 2, 4 ) * 1000,
+					Utility.random( 2, 4 ) * 1200,
 					(v) => e.position.x = v,
 					() => (
 						
@@ -89,7 +89,7 @@ enemies.initialize = ( video, sound, player ) => (
 					e.attack = () => Utility.animate(
 						e.position.x,
 						player.position.x,
-						Utility.random( 2, 4 ) * 1000,
+						Utility.random( 2, 4 ) * 1200,
 						(v) => e.position.x = v,
 						() => (
 							
@@ -123,7 +123,7 @@ enemies.initialize = ( video, sound, player ) => (
 						e.attack = () => Utility.animate(
 							e.position.z,
 							player.position.z,
-							Utility.random( 2, 4 ) * 1000,
+							Utility.random( 2, 4 ) * 1200,
 							(v) => e.position.z = v,
 							() => (
 								
@@ -155,7 +155,7 @@ enemies.initialize = ( video, sound, player ) => (
 						e.attack = () => Utility.animate(
 							e.position.z,
 							player.position.z,
-							Utility.random( 2, 4 ) * 1000,
+							Utility.random( 2, 4 ) * 1200,
 							(v) => e.position.z = v,
 							() => (
 								
